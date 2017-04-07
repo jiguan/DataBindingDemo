@@ -4,7 +4,7 @@ using Windows::UI::Xaml::Input::ICommand;
 using Windows::Foundation::EventHandler;
 using Windows::Foundation::Metadata::WebHostHiddenAttribute;
 
-namespace DataBingingDemo {
+namespace DataBindingDemo {
     namespace Common {
         public delegate void ExecuteDelegate(Platform::Object^ parameter);
         public delegate bool CanExecuteDelegate(Platform::Object^ parameter);

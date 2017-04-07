@@ -2,7 +2,7 @@
 
 using Windows::UI::Xaml::Data::ICustomProperty;
 
-namespace DataBingingDemo
+namespace DataBindingDemo
 {
     namespace Common
     {
@@ -17,11 +17,11 @@ namespace DataBingingDemo
             
         private:
             // ICustomPropertyProvider
-            virtual ICustomProperty^ getCustomProperty(Platform::String^ name);
-            virtual ICustomProperty^ getIndexedProperty(Platform::String^ name, Windows::UI::Xaml::Interop::TypeName type);
-            virtual Platform::String^ getStringRepresentation();
+            virtual ICustomProperty^ GetCustomProperty(Platform::String^ name);
+            virtual ICustomProperty^ GetIndexedProperty(Platform::String^ name, Windows::UI::Xaml::Interop::TypeName type);
+            virtual Platform::String^ GetStringRepresentation();
 
-            property Windows::UI::Xaml::Interop::TypeName type {
+            property Windows::UI::Xaml::Interop::TypeName Type {
                 virtual Windows::UI::Xaml::Interop::TypeName get() {
                     return this->GetType();
                 }

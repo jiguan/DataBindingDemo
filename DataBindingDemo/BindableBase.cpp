@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "BindableBase.h"
 
-using namespace DataBingingDemo::Common;
+using namespace DataBindingDemo::Common;
 
 using Platform::String;
 using Windows::UI::Xaml::Interop::TypeName;
@@ -17,17 +17,17 @@ void BindableBase::NotifyPropertyChanged(String^ propertyName)
     PropertyChanged(this, ref new PropertyChangedEventArgs(propertyName));
 }
 
-ICustomProperty^ BindableBase::getCustomProperty(String^ name)
+ICustomProperty^ BindableBase::GetCustomProperty(String^ name)
 {
     return nullptr;
 }
 
-ICustomProperty^ BindableBase::getIndexedProperty(String^ name, TypeName type)
+ICustomProperty^ BindableBase::GetIndexedProperty(String^ name, TypeName type)
 {
     return nullptr;
 }
 
-String^ BindableBase::getStringRepresentation() 
+String^ BindableBase::GetStringRepresentation() 
 {
     return this->ToString();
 }

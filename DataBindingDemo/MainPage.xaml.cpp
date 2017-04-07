@@ -6,7 +6,7 @@
 #include "pch.h"
 #include "MainPage.xaml.h"
 
-using namespace DataBingingDemo;
+using namespace DataBindingDemo;
 
 using namespace Platform;
 using namespace Windows::Foundation;

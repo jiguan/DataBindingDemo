@@ -2,8 +2,8 @@
 #include "MainViewModel.h"
 #include "DelegateCommand.h"
 
-using DataBingingDemo::MainViewModel;
-using DataBingingDemo::Common::BindableBase;
+using DataBindingDemo::MainViewModel;
+using DataBindingDemo::Common::BindableBase;
 
 // Helper template - RaiseCanExecuteChanged is a method on 
 // DelegateCommand and is not available on ICommand.  We'll cast 

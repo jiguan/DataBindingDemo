@@ -3,7 +3,7 @@
 #include "BindableBase.h"
 #include <collection.h>
 
-using namespace DataBingingDemo::Common;
+using namespace DataBindingDemo::Common;
 
 using Platform::String;
 using Platform::Collections::Vector;
@@ -12,7 +12,7 @@ using Windows::UI::Xaml::Data::BindableAttribute;
 using Windows::UI::Xaml::Controls::Button;
 using Windows::Foundation::Collections::IVector;
 
-namespace DataBingingDemo {
+namespace DataBindingDemo {
     [Bindable]
     public ref class NameValuePair sealed : BindableBase
     {

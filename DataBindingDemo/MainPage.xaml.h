@@ -8,7 +8,7 @@
 #include "MainPage.g.h"
 #include "MainViewModel.h"
 
-namespace DataBingingDemo
+namespace DataBindingDemo
 {
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.

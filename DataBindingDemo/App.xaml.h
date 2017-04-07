@@ -7,7 +7,7 @@
 
 #include "App.g.h"
 
-namespace DataBingingDemo
+namespace DataBindingDemo
 {
 	/// <summary>
 	/// Provides application-specific behavior to supplement the default Application class.

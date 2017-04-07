@@ -1,9 +1,8 @@
 ﻿#include "pch.h"
 #include "DelegateCommand.h"
-#include <assert.h>
 
 using Platform::String;
-using namespace DataBingingDemo::Common;
+using namespace DataBindingDemo::Common;
 
 DelegateCommand::DelegateCommand() {}
 
